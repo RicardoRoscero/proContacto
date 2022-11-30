@@ -119,7 +119,8 @@ Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntand
 
 Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 	
-	
+	![GET](https://user-images.githubusercontent.com/101841397/204931910-7d4e84af-66b8-4078-9936-676efc6bec1d.png)
+
 	
 Realizar un request POST a la URL anterior, y con body:
 {

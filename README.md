@@ -128,7 +128,6 @@ Realizar un request POST a la URL anterior, y con body:
 "email":tunombre.tuapellido@procontacto.com.mx
 }
 Tip: (Marcar la opción “raw” como body)
-Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.jso
 ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 Se muestran los datos agregados mediante el verbo post: 
 

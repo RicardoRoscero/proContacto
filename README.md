@@ -118,6 +118,10 @@ Recomendamos previamente entender los conceptos de la sintaxis “json” antes 
 Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntando un screen de resolución para cada ítem:
 
 Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+	
+	<img src="/path/to/img.jpg" alt="Alt text" title="Optional title">
+	
+	
 Realizar un request POST a la URL anterior, y con body:
 {
 "name":"Tu nombre",

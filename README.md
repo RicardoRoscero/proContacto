@@ -303,4 +303,4 @@ No es un ERP, Salesforce ofrece diversas soluciones de negocio que pueden ser in
 	
 ------------------------------EJERCICIO 7------------------------------
 	
-
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/ejer7_1.png

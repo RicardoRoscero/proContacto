@@ -299,3 +299,8 @@ Planificación de recursos empresariales. Sistema que ayuda a automatizar y admi
 	14.¿Salesforce es un ERP?
 Salesforce es un CRM (Customer Relationship Management), sin embargo se pueden integrar ambos para que trabajen de manera conjunta.
 No es un ERP, Salesforce ofrece diversas soluciones de negocio que pueden ser integradas para mejorar el soporte al ERP, pero no es un producto ERP.
+	
+	
+------------------------------EJERCICIO 7------------------------------
+	
+

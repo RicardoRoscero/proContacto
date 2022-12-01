@@ -124,12 +124,12 @@ Dicho de otra forma, especificar el tipo de contenido ayuda a los user agents a 
 Recomendamos previamente entender los conceptos de la sintaxis “json” antes de arrancar con los ejercicios.
 Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntando un screen de resolución para cada ítem:
 
-Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+--Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 	
 	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/GET.png
 	
 	
-Realizar un request POST a la URL anterior, y con body:
+--Realizar un request POST a la URL anterior, y con body:
 {
 "name":"Tu nombre",
 "email":tunombre.tuapellido@procontacto.com.mx
@@ -139,7 +139,8 @@ Realizar un request POST a la URL anterior, y con body:
 	
 	
 Tip: (Marcar la opción “raw” como body)
-¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+	
+--¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 Se muestran los datos agregados mediante el verbo post: 
 	
 	
@@ -154,14 +155,14 @@ https://trailblazer.me/id/roscero
 
 Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de Salesforce:
 
-1. Lead : Es un cliente potencial el cual demuestra interés en un producto o servicio ofrecido por la marca mediante la interacción con contenidos y otros materiales. 
-2. Account: Representa una cuenta individual, la cual puede estar relacionada con una persona o con la organización (clientes, competidores o socios).
-3. Contact: Representa un contacto el cual es una persona asociada con una cuenta (account). 
-4. Opportunity: Representa una oportunidad el cual es una venta o un negocio pendiente. 
-5. Product: Representa un producto que es vendido por la compañía.
-6. PriceBook: Representa un libro de precios que contiene la lista de lo que se vende dentro de la organización. 
-7. Quote: Representa una cotización. Es un registro que muestra los precios propuestos para productos y servicios. Las cotizaciones se pueden crear y sincronizar con oportunidades y se pueden enviar mediante correo electrónico como pdf a los clientes. 
-8. Asset: Representa un objeto de valor comercial el cual es vendido por una compañía o por la competencia. 
-9. Case: Es un caso, el cual es un problema o inconveniente con el cliente. 
-10. Article: Es una selección de categoría de datos. Se puede utilizar para asociar un artículo con categorías de datos. 
+	1. Lead : Es un cliente potencial el cual demuestra interés en un producto o servicio ofrecido por la marca mediante la interacción con contenidos y otros materiales. 
+	2. Account: Representa una cuenta individual, la cual puede estar relacionada con una persona o con la organización (clientes, competidores o socios).
+	3. Contact: Representa un contacto el cual es una persona asociada con una cuenta (account). 
+	4. Opportunity: Representa una oportunidad el cual es una venta o un negocio pendiente. 
+	5. Product: Representa un producto que es vendido por la compañía.
+	6. PriceBook: Representa un libro de precios que contiene la lista de lo que se vende dentro de la organización. 
+	7. Quote: Representa una cotización. Es un registro que muestra los precios propuestos para productos y servicios. Las cotizaciones se pueden crear y sincronizar con oportunidades y se pueden enviar mediante correo electrónico como pdf a los clientes. 
+	8. Asset: Representa un objeto de valor comercial el cual es vendido por una compañía o por la competencia. 
+	9. Case: Es un caso, el cual es un problema o inconveniente con el cliente. 
+	10. Article: Es una selección de categoría de datos. Se puede utilizar para asociar un artículo con categorías de datos. 
 

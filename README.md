@@ -303,4 +303,22 @@ No es un ERP, Salesforce ofrece diversas soluciones de negocio que pueden ser in
 	
 ------------------------------EJERCICIO 7------------------------------
 	
+	1º Iniciar el asistente de importación de datos: 
+	
 https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/ejer7_1.png
+	
+	2º Seleccionar las opciones correspondientes:
+	
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/ejer7_2.png
+	
+	3º Asignar los campos requeridos:
+
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/ejer7_3.png
+	
+	4ºSe muestra el resumen de la importación: 
+	
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/ejer7_4.png
+	
+	5º Se muestran los resultados y datos específicos:
+	
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/ejer7_5.png

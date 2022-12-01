@@ -119,9 +119,7 @@ Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntand
 
 Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 	
-	![GET dentro de la carpeta img]
-	
-	(https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/GET.png)
+	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/GET.png
 	
 	
 Realizar un request POST a la URL anterior, y con body:
@@ -129,17 +127,15 @@ Realizar un request POST a la URL anterior, y con body:
 "name":"Tu nombre",
 "email":tunombre.tuapellido@procontacto.com.mx
 }
-	![Post dentro de la carpeta img]
 	
-	(https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/POST.png)
+	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/POST.png
 	
 	
 Tip: (Marcar la opción “raw” como body)
 ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 Se muestran los datos agregados mediante el verbo post: 
 	
-	![DIF-POST dentro de la carpeta img]
 	
-	(https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/DIF_POST.png)
+	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/DIF_POST.png
 
 

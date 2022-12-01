@@ -1,24 +1,27 @@
 # proContacto
 
-EJERCICIO 2 
+------------------------------EJERCICIO 2------------------------------
 
 
 
 Las siguientes preguntas están orientadas a la comprensión del protocolo HTTP. Son agnósticas al lenguaje de programación, la idea es comprender los conceptos del estándar:
-1. ¿Qué es un servidor HTTP? 
+
+	1. ¿Qué es un servidor HTTP? 
 Un servidor HTTP, en términos más sencillos, es un ordenador que procesa, almacena y entrega archivos pertenecientes a sitios web a los navegadores. Se conforman por hardware y software que utilizan el protocolo de transferencia de hipertexto para lograr responder peticiones de los usuarios dentro de la web.  
-2. ¿Qué son los verbos HTTP? Mencionar los más conocidos
+
+	2. ¿Qué son los verbos HTTP? Mencionar los más conocidos
 Son utilizados para la recuperación de información proveniente de un recurso. Los verbos involucrados en un servicio REST son: 
 Get
 Post 
 Put
 Patch 
 Delete
-		Get es utilizado para consultar un recurso .
-		Post es utilizado para creación de nuevos recursos.
-		Put y patch son similares, se utilizan para modificar un recurso ya existente. 
-		Delete, como su nombre lo indica se utiliza para eliminación de registros. 
-3. ¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers? 
+Get es utilizado para consultar un recurso .
+Post es utilizado para creación de nuevos recursos.
+Put y patch son similares, se utilizan para modificar un recurso ya existente. 
+Delete, como su nombre lo indica se utiliza para eliminación de registros. 
+
+	3. ¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers? 
 Resquest: Línea de salida de una petición HTTP. Esta siempre formará parte de la primera línea del mensaje de solicitud y se conforma por tres campos 
 Un método HTTP.
 Un identificador universal de recursos (Url)
@@ -30,30 +33,33 @@ Pueden existir diversos tipos de headers dependiendo del contexto:
 -Cabecera de consulta.
 -Cabecera de respuesta. 
 -Cabecera de entidad. 
-4. ¿Qué es un queryString? (En el contexto de una url)
+
+	4. ¿Qué es un queryString? (En el contexto de una url)
 El queryString forma parte de una url que asigna valores a los parámetros que son especificados. Hace referencia a una interacción con una base de datos.
 Es la parte de una URL que contiene los datos que deben ser transmitidos a aplicaciones web. Dentro de los métodos, query string permite mayor precisión al momento de enviar información a través de la url. Un ejemplo sería: 
 Al realizar una petición a la ruta “/users” la respuesta (ya sea un objeto, una página web, un objeto JSON o XML) tendrá relación con los usuarios. 
 Al nosotros realizar la petición de la siguiente forma: “/users?order=true” se realizará la misma petición, con la diferencia de que el servidor nos debe retornar a los usuarios de manera ordenada. Todo lo que está después del signo de interrogación es el queryString y se conforma por la siguiente estructura: 
 __ llave (nombre del parametro) , signo igual (=) y valor. __
-5. ¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?
+
+	5. ¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?
 Representan el status de completitud de una solicitud HTTP específica. Las respuestas se agrupan en los siguientes tipos: 
 Respuestas informativas (Que van del 100-199)
 Respuestas satisfactorias (Que van del 200-299)
 Redirecciones (Que van del 300-399)
 Errores de los clientes (400-499)
 Errores de los servidores(500-599)
-6. ¿Cómo se envía la data en un Get y cómo en un POST? 
 
+	6. ¿Cómo se envía la data en un Get y cómo en un POST? 
 En cuanto al envío de información: 
 Dentro del método GET, los datos son visibles por la URL, por ejemplo:
 www.uvm.com.mx/action.php?nombre=pedro&apellidos1= gomez
 Dentro del método POST envía los datos de manera “oculta”, no se muestra en la url, por ejemplo: 
 <form action="http://www.uvm.com.mx/prog/newuser" method ="post">
-
-7. ¿Qué verbo http utiliza el navegador cuando accedemos a una página?
+	
+	7. ¿Qué verbo http utiliza el navegador cuando accedemos a una página?
 GET, ya que es utilizado cuando se solicita un recurso. 
-8. Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.
+	
+	8. Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.
 JSON: Formato basado en texto que representan datos estructurados dentro de la sintaxis de objetos de JavaScript. Se utiliza ampliamente para transmitir datos en aplicaciones web. Se puede dar una jerarquía de datos como la siguiente: 
 {
   "nombreGrupo": "Escuadrón de superhéroes",
@@ -96,23 +102,24 @@ XML: El Lenguaje de Marcado Extensible permite definir, compartir y almacenar da
    </Book>
 </Catalog>
 
-9. Explicar brevemente el estándar SOAP
+	9. Explicar brevemente el estándar SOAP
 Simple Object Acces Protocol es un protocolo ligero utilizado para intercambiar información dentro de entornos descentralizados y distribuídos. Los mensajes SOAP pueden combinarse para crear patrones de petición o respuesta. 
 SOAP se encuentra basado en XML el cual define en tres partes los mensajes: 
 Sobre.
 Reglas de codificación.
-Estilos de comunicación.  
-10. Explicar brevemente el estándar REST Full
+Estilos de comunicación.
+	
+	10. Explicar brevemente el estándar REST Full
 Se encuentra considerada como un servicio que funciona como un estándar para compartir información en un sistema de doble vía (Request - Response)
 Esta arquitectura trabaja sobre el protocolo HTTP, los procedimientos y métodos de comunicación (verbos) son los mismos que HTTP. 
 Un componente importante de un REST full Api es “HTTP Status Code” el cual tiene como tarea principal informar al cliente o consumidor del API, qué debe hacer con la respuesta recibida. Es una referencia universal del resultado obtenido.
 
-11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
+	11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
 Son esquemas clave-valor que contienen información sobre el HTTP request y el navegador; de igual forma aquí se alojan los datos de las cookies. La mayoría de los headers son opcionales. 
 El content-type (También conocido como media type o MIME type), es un recurso que se utiliza dentro del header HTTP y que indica al cliente o navegador qué clase de medio o archivo le está enviando el servidor. 
 Dicho de otra forma, especificar el tipo de contenido ayuda a los user agents a comprender el contexto y poder así mejorar la experiencia de usabilidad, al mostrar el medio o archivo de la mejor manera posible.  
 
-EJERCIICIO 3 
+------------------------------EJERCICIO 3------------------------------
 
 Recomendamos previamente entender los conceptos de la sintaxis “json” antes de arrancar con los ejercicios.
 Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntando un screen de resolución para cada ítem:
@@ -138,9 +145,23 @@ Se muestran los datos agregados mediante el verbo post:
 	
 	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/DIF_POST.png
 	
-EJERCICIO 4 
+------------------------------EJERCICIO 4------------------------------
 	
 https://trailblazer.me/id/roscero
 
 
+------------------------------EJERCICIO 5------------------------------
+
+Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de Salesforce:
+
+1. Lead : Es un cliente potencial el cual demuestra interés en un producto o servicio ofrecido por la marca mediante la interacción con contenidos y otros materiales. 
+2. Account: Representa una cuenta individual, la cual puede estar relacionada con una persona o con la organización (clientes, competidores o socios).
+3. Contact: Representa un contacto el cual es una persona asociada con una cuenta (account). 
+4. Opportunity: Representa una oportunidad el cual es una venta o un negocio pendiente. 
+5. Product: Representa un producto que es vendido por la compañía.
+6. PriceBook: Representa un libro de precios que contiene la lista de lo que se vende dentro de la organización. 
+7. Quote: Representa una cotización. Es un registro que muestra los precios propuestos para productos y servicios. Las cotizaciones se pueden crear y sincronizar con oportunidades y se pueden enviar mediante correo electrónico como pdf a los clientes. 
+8. Asset: Representa un objeto de valor comercial el cual es vendido por una compañía o por la competencia. 
+9. Case: Es un caso, el cual es un problema o inconveniente con el cliente. 
+10. Article: Es una selección de categoría de datos. Se puede utilizar para asociar un artículo con categorías de datos. 
 

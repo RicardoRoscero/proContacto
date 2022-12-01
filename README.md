@@ -137,5 +137,10 @@ Se muestran los datos agregados mediante el verbo post:
 	
 	
 	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/DIF_POST.png
+	
+EJERCICIO 4 
+	
+https://trailblazer.me/id/roscero
+
 
 

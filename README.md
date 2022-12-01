@@ -126,7 +126,7 @@ Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntand
 
 --Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 	
-	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/GET.png
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/GET.png
 	
 	
 --Realizar un request POST a la URL anterior, y con body:
@@ -135,7 +135,7 @@ Descargar el POSTMAN (aplicación para realizar request como cliente), adjuntand
 "email":tunombre.tuapellido@procontacto.com.mx
 }
 	
-	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/POST.png
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/POST.png
 	
 	
 Tip: (Marcar la opción “raw” como body)
@@ -144,7 +144,7 @@ Tip: (Marcar la opción “raw” como body)
 Se muestran los datos agregados mediante el verbo post: 
 	
 	
-	https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/DIF_POST.png
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/DIF_POST.png
 	
 ------------------------------EJERCICIO 4------------------------------
 	
@@ -167,10 +167,9 @@ Explicar que son conceptualmente, qué datos almacenan en forma estándar y cóm
 	10. Article: Es una selección de categoría de datos. Se puede utilizar para asociar un artículo con categorías de datos. 
 	
 	
+Diagrama:
 	
-	
-	
-
+https://raw.githubusercontent.com/RicardoRoscero/proContacto/master/img/ejer_5.png
 	
 ------------------------------EJERCICIO 6------------------------------
 
